@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .button{
+    padding: 20px;
+    width:66px;
+    margin: 0 2px;
+    border:2px solid black;
+    border-radius:9px;
+    cursor:pointer;
+  }
+  .row input{
+    padding:10px 80px;
+    margin:0;
+    border-radius:9px;
+    border:4px solid black;
+    font-size: 20px;
+    max-width:50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .box{
+    border:2px solid black;
+    border-radius:9px;
+    position:relative;
+    width:50%;
+    padding:auto;
+    margin:auto;
+  }
+  @media(max-width:800px){
+    .row input{
+      width:10%;
+      margin:2%;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+  

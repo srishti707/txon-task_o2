@@ -1,0 +1,33 @@
+.text-center{
+    text-align: center;
+    
+  }
+  .bg-red{
+    background:grey;
+  }
+  .max-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+    align-items:center;
+  }
+  .flex-col{
+    flex-direction:column;
+  }
+  .item-center{
+    align-items:center;
+  }
+  .row{
+    margin: 9px 0;
+  }
+  i{
+    font-size: 40px;
+    font-family: 'lobster', cursive;
+  }
+  h2{
+    font-size: 46px;
+    text-align: center;
+    font-family:'permanent marker',cursive;
+  }
